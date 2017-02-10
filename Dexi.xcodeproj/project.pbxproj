@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04452B4F1E4C4FD400278E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04452B4E1E4C4FD400278E68 /* AppDelegate.swift */; };
+		04452B541E4C4FD400278E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04452B521E4C4FD400278E68 /* Main.storyboard */; };
+		04452B571E4C4FD400278E68 /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04452B551E4C4FD400278E68 /* __.xcdatamodeld */; };
+		04452B591E4C4FD400278E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04452B581E4C4FD400278E68 /* Assets.xcassets */; };
+		04452B5C1E4C4FD400278E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04452B5A1E4C4FD400278E68 /* LaunchScreen.storyboard */; };
+		04452B641E4C5F9B00278E68 /* GuihuaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04452B631E4C5F9B00278E68 /* GuihuaTableViewController.swift */; };
+		04452B671E4C621800278E68 /* shuzu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04452B661E4C621800278E68 /* shuzu.swift */; };
+		044B0D0B1E4D714F00B9CE30 /* GuihuaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B0D0A1E4D714F00B9CE30 /* GuihuaTableViewCell.swift */; };
+		044B0D0F1E4DA6A900B9CE30 /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B0D0E1E4DA6A900B9CE30 /* UIWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04452B4B1E4C4FD400278E68 /* Dexi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dexi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04452B4E1E4C4FD400278E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04452B531E4C4FD400278E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04452B561E4C4FD400278E68 /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
+		04452B581E4C4FD400278E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04452B5B1E4C4FD400278E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04452B5D1E4C4FD400278E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04452B631E4C5F9B00278E68 /* GuihuaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuihuaTableViewController.swift; sourceTree = "<group>"; };
+		04452B661E4C621800278E68 /* shuzu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shuzu.swift; sourceTree = "<group>"; };
+		044B0D0A1E4D714F00B9CE30 /* GuihuaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuihuaTableViewCell.swift; sourceTree = "<group>"; };
+		044B0D0E1E4DA6A900B9CE30 /* UIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04452B481E4C4FD400278E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04452B421E4C4FD400278E68 = {
+			isa = PBXGroup;
+			children = (
+				04452B4D1E4C4FD400278E68 /* dexi */,
+				04452B4C1E4C4FD400278E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04452B4C1E4C4FD400278E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04452B4B1E4C4FD400278E68 /* Dexi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04452B4D1E4C4FD400278E68 /* dexi */ = {
+			isa = PBXGroup;
+			children = (
+				04452B4E1E4C4FD400278E68 /* AppDelegate.swift */,
+				04452B631E4C5F9B00278E68 /* GuihuaTableViewController.swift */,
+				044B0D0A1E4D714F00B9CE30 /* GuihuaTableViewCell.swift */,
+				044B0D0E1E4DA6A900B9CE30 /* UIWebViewController.swift */,
+				04452B521E4C4FD400278E68 /* Main.storyboard */,
+				04452B581E4C4FD400278E68 /* Assets.xcassets */,
+				04452B5A1E4C4FD400278E68 /* LaunchScreen.storyboard */,
+				04452B661E4C621800278E68 /* shuzu.swift */,
+				04452B5D1E4C4FD400278E68 /* Info.plist */,
+				04452B551E4C4FD400278E68 /* __.xcdatamodeld */,
+			);
+			name = dexi;
+			path = "金诺";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04452B4A1E4C4FD400278E68 /* Dexi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04452B601E4C4FD400278E68 /* Build configuration list for PBXNativeTarget "Dexi" */;
+			buildPhases = (
+				04452B471E4C4FD400278E68 /* Sources */,
+				04452B481E4C4FD400278E68 /* Frameworks */,
+				04452B491E4C4FD400278E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dexi;
+			productName = "金诺";
+			productReference = 04452B4B1E4C4FD400278E68 /* Dexi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04452B431E4C4FD400278E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jack;
+				TargetAttributes = {
+					04452B4A1E4C4FD400278E68 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04452B461E4C4FD400278E68 /* Build configuration list for PBXProject "Dexi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04452B421E4C4FD400278E68;
+			productRefGroup = 04452B4C1E4C4FD400278E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04452B4A1E4C4FD400278E68 /* Dexi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04452B491E4C4FD400278E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04452B5C1E4C4FD400278E68 /* LaunchScreen.storyboard in Resources */,
+				04452B591E4C4FD400278E68 /* Assets.xcassets in Resources */,
+				04452B541E4C4FD400278E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04452B471E4C4FD400278E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04452B641E4C5F9B00278E68 /* GuihuaTableViewController.swift in Sources */,
+				044B0D0F1E4DA6A900B9CE30 /* UIWebViewController.swift in Sources */,
+				04452B671E4C621800278E68 /* shuzu.swift in Sources */,
+				044B0D0B1E4D714F00B9CE30 /* GuihuaTableViewCell.swift in Sources */,
+				04452B571E4C4FD400278E68 /* __.xcdatamodeld in Sources */,
+				04452B4F1E4C4FD400278E68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04452B521E4C4FD400278E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04452B531E4C4FD400278E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04452B5A1E4C4FD400278E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04452B5B1E4C4FD400278E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04452B5E1E4C4FD400278E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04452B5F1E4C4FD400278E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04452B611E4C4FD400278E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "金诺/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jiji.--";
+				PRODUCT_NAME = Dexi;
+			};
+			name = Debug;
+		};
+		04452B621E4C4FD400278E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "金诺/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jiji.--";
+				PRODUCT_NAME = Dexi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04452B461E4C4FD400278E68 /* Build configuration list for PBXProject "Dexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04452B5E1E4C4FD400278E68 /* Debug */,
+				04452B5F1E4C4FD400278E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04452B601E4C4FD400278E68 /* Build configuration list for PBXNativeTarget "Dexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04452B611E4C4FD400278E68 /* Debug */,
+				04452B621E4C4FD400278E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04452B551E4C4FD400278E68 /* __.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04452B561E4C4FD400278E68 /* __.xcdatamodel */,
+			);
+			currentVersion = 04452B561E4C4FD400278E68 /* __.xcdatamodel */;
+			path = __.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04452B431E4C4FD400278E68 /* Project object */;
+}
