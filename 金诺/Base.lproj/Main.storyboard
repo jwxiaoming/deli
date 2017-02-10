@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CL7-Gf-WuF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CXN-AH-dn4">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -10,7 +10,7 @@
             <objects>
                 <tableViewController id="0ms-mw-2fS" customClass="GuihuaTableViewController" customModule="Dexi" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="aFu-b1-Imx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -68,26 +68,63 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZCz-LI-5xo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793" y="445"/>
+            <point key="canvasLocation" x="1325" y="445"/>
         </scene>
-        <!--详情页面-->
+        <!--简介-->
+        <scene sceneID="vFe-6r-Y7o">
+            <objects>
+                <navigationController id="mnp-f1-50S" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="简介" image="about" id="Ggc-bv-c9A"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="gza-jR-vyp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ngT-cV-a3g" kind="push" id="RAz-W8-JsH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDO-Ns-nlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="798" y="1188"/>
+        </scene>
+        <!--简介-->
+        <scene sceneID="bQo-lG-uJj">
+            <objects>
+                <viewController id="ngT-cV-a3g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lh5-13-e8T"/>
+                        <viewControllerLayoutGuide type="bottom" id="IjH-Nq-dnm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DF1-Mx-Yud">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="简介" id="g7H-yF-DmH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6U1-t1-oIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1325" y="1188"/>
+        </scene>
+        <!--详情-->
         <scene sceneID="DoD-Ct-rdv">
             <objects>
-                <viewController id="xyV-p8-aUD" customClass="UIWebViewController" customModule="Dexi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="xyV-p8-aUD" customClass="UIWebViewController" customModule="Dexi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iiI-O5-ZEQ"/>
                         <viewControllerLayoutGuide type="bottom" id="aP3-uN-g30"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YZI-DZ-uZX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lr-qy-Ig7">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-cF-doe">
-                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-cF-doe">
+                                <rect key="frame" x="150" y="275" width="20" height="20"/>
                                 <color key="color" red="0.80000000000000004" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
@@ -101,7 +138,7 @@
                             <constraint firstItem="oSN-cF-doe" firstAttribute="centerY" secondItem="YZI-DZ-uZX" secondAttribute="centerY" id="vDm-Bu-M5u"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="详情页面" id="4Uj-PE-CYs"/>
+                    <navigationItem key="navigationItem" title="详情" id="4Uj-PE-CYs"/>
                     <connections>
                         <outlet property="juhua" destination="oSN-cF-doe" id="6ji-9q-uVA"/>
                         <outlet property="webview" destination="2lr-qy-Ig7" id="pKT-cf-1Tm"/>
@@ -109,12 +146,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOg-vI-o85" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1245" y="445"/>
+            <point key="canvasLocation" x="1777" y="445"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--规划-->
         <scene sceneID="r9f-Mn-nIh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CL7-Gf-WuF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="规划" image="discover" id="QQB-Nw-00U"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Izr-ff-npe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -129,7 +167,30 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHq-rJ-8ld" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="793" y="445"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BDa-F8-vfw">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CXN-AH-dn4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="qbe-Ac-8eJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CL7-Gf-WuF" kind="relationship" relationship="viewControllers" id="hrM-gA-ew7"/>
+                        <segue destination="mnp-f1-50S" kind="relationship" relationship="viewControllers" id="5EV-k1-j3L"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ket-ag-SeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="261" y="445"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="25" height="25"/>
+        <image name="discover" width="25" height="25"/>
+    </resources>
 </document>
